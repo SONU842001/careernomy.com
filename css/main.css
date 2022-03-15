@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;1,300;1,500;1,600;1,700&display=swap');
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+
+}
+
+
+body{
+box-sizing: border-box;
+background-color: #fff;
+font-size: 16px;
+font-family: sans-serif;
+font-weight: 400;
+line-height: 20px;
+font-style: normal;
+position: relative;
+
+}
+.header{
+  width: 100%;
+  display: block;
+}
+.container{
+  height: 94px;
+  position: relative;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#fff;
+}
+.logo{
+  position: absolute;
+    display: block;
+    width: 160px;
+    height: 66px;
+      /* 0 0 matlab position on x axis and poition on y */
+    background-size: contain;
+    top: 15px;
+    left: 20px;
+}
+.logo a{
+    font-size: 30px;
+}
+.left{
+  font-size: 18px;
+  padding: 10px;
+
+}
+a{
+  color: rgb(136, 133, 133);
+  text-decoration: none;
+  
+}
+ul{
+  list-style: none;
+}
+a:hover{
+  color: #13b5ea;
+}
+.left-container ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-container ul ul{
+  display: none;
+}
+.left-nav ul{
+  position: absolute;
+  top: 42px;
+  left: 200px;
+ }
+.right-container ul{
+   display: flex;
+   flex-direction: row;
+   margin-right: 5px;
+
+ }
+ .right-container ul li{
+  font-size: 18px;
+  padding: 10px;
+  padding-top: 20px;
+ }
+ header{
+  
+  width: 100%;
+  height: auto;
+  margin-top: -20px;
+  height: 600px;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../assets/photo/dd.jpg");
+
+ }
+ .hero{
+    position: absolute;
+    
+    padding: 50px 30px;
+
+    
+    
+ }
+ .hero h1{
+      line-height: 1.2em;
+      font-size: 2em;
+      display: inline-block;
+      color: #ffff;
+      font-weight: 700;
+      padding-bottom: 10px;
+      text-align: center;
+      
+}
+.hero h3{
+  line-height: 1.8em;
+      font-size: 1.2em;
+      display: inline-block;
+      color: #ffff;
+      font-weight: 500;
+      padding-top: 0;
+      text-align: center;
+      
+}
+.banner-form{
+  position: relative;
+  top: 260px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 5px;
+  border: 20px solid #fff;
+  margin: 0  20px;
+}
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  
+  
+}
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 2em;
+  border: 1px solid ;
+  
+}
+.input-field .input-first{
+  margin-top: 10px;
+}
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+.btn {
+  background-color: red;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px solid !important;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-weight: 700;
+  
+}
+.btn:hover {
+  opacity: 1;
+}
+
+/* category section starts */
+
+.category-section{
+  position:relative;
+  top: 500px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  
+}
+.section-title{
+  margin-bottom: 30px;
+
+}
+.text-center{
+  text-align: center !important;
+  
+}
+.text-center h2{
+    font-weight: 600;
+    color:#001935;
+    font-size: 25px;
+    margin :0 auto 10px;
+    line-height:1.4;
+
+    
+}
+.text-center .title-paragraph{
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #707070;
+  line-height: 1.8;
+}
+.row{
+  position: absolute;
+  top: 200px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin: 0 auto;
+}
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+  position: relative;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 35px;
+  text-align: center;
+  background-color: #f1f1f1;
+  
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card h3{
+  color:#001935;
+  font-weight: 800;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row {margin: 0 -5px;}
+/* jobs section starts */
+
+.jobs-may-container{
+  position: relative;
+  top: 1500px;
+  
+  padding-bottom: 20px;
+}
+.jobs-may-container p{
+  padding: 0 30px;
+}
